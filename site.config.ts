@@ -2,20 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'd0bad8e2e3b244a7ad67a5c33a13363a',
+  rootNotionPageId: '7b264fd72c34471e92483f2858201a94',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: 'cd70831b-555b-4b5b-8a91-01b5143fa3c2',
+  rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Portfolio.v3 ',
-  domain: 'kalenwallin.com',
-  author: 'Kalen Wallin',
+  name: 'Next.js Notion Starter Kit',
+  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  author: 'Travis Fischer',
 
   // open graph metadata (optional)
-  description:
-    'Showcasing his skills through jobs, projects, school transcripts, community service, and life experiences.',
+  description: 'Example Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
@@ -54,13 +53,13 @@ export default siteConfig({
   // navigationStyle: 'default',
   navigationStyle: 'custom',
   navigationLinks: [
-    {
-      title: 'About',
-      pageId: '748c0c59bc7d45df8fca9c550d6422d0'
-    },
-    {
-      title: 'Contact',
-      pageId: '661e609eb47345fe881463c6ba600abc'
-    }
+     {
+       title: 'About',
+       pageId: '2401f2cd0cdb45eaa463a922c3686635'
+     },
+     {
+       title: 'Contact',
+       pageId: '2c6e3548d633447e839253b28ef31317'
+     }
   ]
 })
